@@ -1,12 +1,12 @@
 # print("Hello World!")
 
 # name = 'Alex'
-# # age = 25
-# is_session_on = True
+# age = 25
+# is_admin = True
 
 # print(name)
 # print(age)
-# print(is_session_on)
+# print(is_admin)
 
 # print(f"{name} is {age} years old")
 
@@ -14,10 +14,12 @@
 
 # print(f"Hello {user_name}")
 
-# Task 1. Ask user about their name and age and print the approx birth year from today's date.
+# ---------> Task 1. Ask user about their name and age and print the approx birth year from today's date.
 
 # age = int(input("Enter your age: "))
 # print(age+1)
+
+# Operators
 
 # a = 20
 # b = 15
@@ -45,7 +47,17 @@
 
 # If/else
 
+# age = 25
 # age = int(input("Enter your age: "))
+
+# if age >= 21:
+#     print("You're an adult")
+# elif age>= 18:
+#     print("You're eligible for vote")
+# else: 
+#     print("You're too young")
+
+
 # gender = input("Enter your gender: ")
 
 
@@ -62,15 +74,15 @@
 # for letter in "PYTHON":
 #     print(letter)
 
-# Task 2: Create a simple guessing game that asks user for input and tells if the secret number is lesser or greater than the current input. Once the user enters the correct input, print congratulations.
+# --------> Task 2: Create a simple guessing game that asks user for input and tells if the secret number is lesser or greater than the current input. Once the user enters the correct input, print congratulations.
 
 
 # Lists - ordered collection
 
 # fruits = ["apple", "banana", "guava"]
-# # print(fruits[0])
+# print(fruits[0])
 # fruits.append("mango")
-# # print(fruits)
+# print(fruits)
 
 # # for fruit in fruits:
 # #     print(f"this is a {fruit}")
@@ -79,22 +91,24 @@
 
 # print("mano" in fruits) # True
 
-# Task 3 : Remove guava from lists
+# ---------> Task 3 : Remove guava from lists
 
-# Dictionaries
+# Dictionaries - stores data in key : value pair
 
-user = {
-    "name" : "Alex",
-    "age": 32,
-    "is_student": True
-}
+# user = {
+#     "name" : "Aman",
+#     "age": 32,
+#     "is_student": True
+# }
 
-print(user["age"])
+# print(user["age"])
+# print(f"is student : {user["is_student"]}")
 
 
-user["city"] = "Delhi"
-print(user)
+# user["city"] = "Delhi"
+# print(user)
 
-# Task 4: Print all the key value pair from user dict.
+# --------> Task 4: Print all the key value pair from user dict.
+
 
 
